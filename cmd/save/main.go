@@ -3,9 +3,10 @@ package main
 import (
 	"context"
 	"flag"
-	"github.com/aaronland/go-internetarchive/wayback"
 	"log"
 	"sync"
+
+	"github.com/aaronland/go-internetarchive/wayback"
 )
 
 func save(ctx context.Context, m *wayback.WaybackMachine, uris ...string) {

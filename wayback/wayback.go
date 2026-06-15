@@ -6,7 +6,6 @@ import (
 	"errors"
 	"fmt"
 	"io/ioutil"
-	_ "log"
 	"net/http"
 	"time"
 )
